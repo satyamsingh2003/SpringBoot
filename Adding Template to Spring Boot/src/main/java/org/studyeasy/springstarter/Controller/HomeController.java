@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
+
     @GetMapping("/home")
+    // Url Request will come here whenever you try to access localhost:8080/home and will return home.html
     public String home(Model model) {
         return "home";  }
     

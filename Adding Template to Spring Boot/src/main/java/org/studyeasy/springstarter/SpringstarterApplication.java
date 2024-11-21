@@ -9,5 +9,5 @@ public class SpringstarterApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringstarterApplication.class, args);
 	}
-
+// To start spring application
 }
